@@ -1,0 +1,30 @@
+# Core ML/DL frameworks
+torch>=1.9.0
+transformers>=4.20.0
+datasets>=2.0.0
+scikit-learn
+scipy
+numpy
+pandas
+
+# NLP utilities
+nltk
+spacy
+textblob
+
+# Training and evaluation
+wandb
+tensorboard
+tqdm
+
+# Data processing
+jsonlines
+matplotlib
+seaborn
+
+# Development tools
+jupyter
+ipykernel
+black
+flake8
+pytest

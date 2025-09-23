@@ -1,0 +1,26 @@
+{
+  "model": {
+    "name": "bert-base-uncased",
+    "max_length": 128,
+    "dropout_rate": 0.1,
+    "freeze_backbone": false
+  },
+  "training": {
+    "learning_rate": 2e-5,
+    "batch_size": 16,
+    "num_epochs": 8,
+    "warmup_steps": 100,
+    "weight_decay": 0.01,
+    "use_custom_loss": true
+  },
+  "data": {
+    "train_data_path": "",
+    "eval_data_path": "",
+    "test_data_path": ""
+  },
+  "output": {
+    "model_output_dir": "./models",
+    "results_output_dir": "./results", 
+    "submission_output_dir": "./submissions"
+  }
+}

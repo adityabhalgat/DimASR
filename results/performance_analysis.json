@@ -1,0 +1,38 @@
+{
+  "pearson_v": 0.22812128113996846,
+  "pearson_a": 0.13022234073325561,
+  "pred_valence_stats": {
+    "mean": 2.0294736842105263,
+    "std": 0.2003279859107513,
+    "min": 1.61,
+    "max": 2.42
+  },
+  "true_valence_stats": {
+    "mean": 6.17578947368421,
+    "std": 2.179887287741643,
+    "min": 1.33,
+    "max": 8.0
+  },
+  "pred_arousal_stats": {
+    "mean": 2.7352631578947366,
+    "std": 0.20502550344703924,
+    "min": 2.37,
+    "max": 3.04
+  },
+  "true_arousal_stats": {
+    "mean": 7.30157894736842,
+    "std": 0.7091600899944926,
+    "min": 6.25,
+    "max": 8.67
+  },
+  "recommendations": [
+    "Increase training data size",
+    "Fix output scaling (use sigmoid with 0-10 range)",
+    "Better loss function with Pearson correlation",
+    "Enhanced model architecture",
+    "Proper regularization and dropout",
+    "Data augmentation",
+    "Longer sequence length",
+    "Learning rate scheduling"
+  ]
+}
